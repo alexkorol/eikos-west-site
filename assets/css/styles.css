@@ -181,9 +181,6 @@ iframe:focus-visible {
 }
 
 .site-header {
-  position: sticky;
-  z-index: 20;
-  top: 0;
   border-bottom: 1px solid var(--line);
   background: rgba(255, 255, 255, 0.96);
   backdrop-filter: blur(12px);
@@ -1394,6 +1391,12 @@ iframe:focus-visible {
 }
 
 @media (min-width: 960px) {
+  .site-header {
+    position: sticky;
+    z-index: 20;
+    top: 0;
+  }
+
   .header-row {
     min-height: 82px;
   }
