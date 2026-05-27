@@ -1418,6 +1418,10 @@ iframe:focus-visible {
     width: 86px;
   }
 
+  .site-nav a:first-child {
+    width: 110px;
+  }
+
   .site-nav .button {
     margin: 0 0 0 10px;
     padding-inline: 18px;
