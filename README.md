@@ -8,6 +8,7 @@ Static GitHub Pages prototype for the July 1, 2026 transition from Gateway Auto 
 - `services/index.html` - auto repair and maintenance
 - `interlock/index.html` - ignition interlock landing page
 - `about/index.html` - rebrand story and repair guarantee messaging
+- `crew/index.html` - team portraits and staff story framework
 - `contact/index.html` - contact, hours, and map
 
 ## Publish With GitHub Pages
@@ -45,6 +46,7 @@ Official references:
 - Confirm whether the existing Gateway Auto shop phones `(425) 775-8501` and `(425) 672-3441` will carry over after the ownership transition.
 - Add the actual online booking destination on the contact page.
 - Add approved, verified Google review quotations and the updated profile link to the home-page launch panel.
+- Replace the crew-page portrait and biography slots with approved team photos, names, roles, and stories.
 - Confirm future Eikos West hours, guarantee terms, and any claims not carried directly from existing public listings.
 - Confirm that the stated interlock appointment expectation of 1.5-3 hours matches shop scheduling practice.
 - Add approved shop photography if desired; the current hero is intentionally a brand-forward graphic treatment.

@@ -510,6 +510,10 @@ iframe:focus-visible {
   text-transform: uppercase;
 }
 
+.card-label--light {
+  color: var(--heritage-tint);
+}
+
 .service-card h3 {
   margin-top: 8px;
   color: var(--slate);
@@ -1057,6 +1061,139 @@ iframe:focus-visible {
   color: var(--ink-soft);
 }
 
+.crew-callout,
+.crew-story {
+  display: grid;
+  gap: 34px;
+  align-items: center;
+}
+
+.crew-callout-copy {
+  display: grid;
+  align-content: center;
+  gap: 20px;
+}
+
+.crew-callout-copy .section-title,
+.crew-callout-copy .section-intro {
+  margin-top: 0;
+}
+
+.crew-callout-copy .button {
+  justify-self: start;
+}
+
+.crew-photo-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 12px;
+}
+
+.portrait-slot,
+.crew-hero-photo {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  min-height: 290px;
+  place-items: end start;
+  padding: 18px;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background:
+    linear-gradient(145deg, rgba(58, 63, 71, 0.06), rgba(158, 42, 42, 0.12)),
+    var(--bone);
+  color: var(--slate);
+}
+
+.portrait-slot::before,
+.crew-hero-photo::before {
+  position: absolute;
+  inset: 15px;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-small);
+  content: "";
+}
+
+.portrait-slot span,
+.crew-hero-photo span {
+  position: relative;
+  color: var(--ink-soft);
+  font-size: 0.76rem;
+  font-weight: 700;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+
+.portrait-slot--small {
+  min-height: 210px;
+}
+
+.portrait-slot--wide {
+  grid-column: 1 / -1;
+  min-height: 168px;
+}
+
+.crew-hero {
+  background:
+    linear-gradient(90deg, var(--bone) 0 50%, var(--bone-light) 50%),
+    var(--bone);
+}
+
+.crew-hero-photo {
+  min-height: 340px;
+  background:
+    linear-gradient(145deg, rgba(158, 42, 42, 0.15), rgba(58, 63, 71, 0.12)),
+    var(--bone-light);
+}
+
+.crew-grid {
+  display: grid;
+  gap: 20px;
+  margin-top: 40px;
+}
+
+.crew-card {
+  overflow: hidden;
+  display: grid;
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-soft);
+}
+
+.crew-card .portrait-slot {
+  min-height: 300px;
+  border: 0;
+  border-radius: 0;
+}
+
+.crew-card-copy {
+  display: grid;
+  gap: 10px;
+  padding: 24px;
+}
+
+.crew-card-copy h3 {
+  color: var(--slate);
+  font-size: 1.9rem;
+}
+
+.crew-card-copy p:last-child {
+  color: var(--ink-soft);
+}
+
+.story-prompts {
+  padding: clamp(25px, 5vw, 34px);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--paper);
+  box-shadow: var(--shadow-soft);
+}
+
+.story-prompts .check-list {
+  margin-top: 21px;
+}
+
 .contact-cards {
   display: grid;
   gap: 13px;
@@ -1214,13 +1351,16 @@ iframe:focus-visible {
   .paperwork-grid,
   .location-grid,
   .contact-grid,
-  .story-grid {
+  .story-grid,
+  .crew-callout,
+  .crew-story {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
   .values-grid,
   .feature-grid,
-  .pricing-grid {
+  .pricing-grid,
+  .crew-grid {
     grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 
@@ -1275,7 +1415,7 @@ iframe:focus-visible {
 
   .site-nav a:not(.button) {
     justify-content: center;
-    width: 92px;
+    width: 86px;
   }
 
   .site-nav .button {
