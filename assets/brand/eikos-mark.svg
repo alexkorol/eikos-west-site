@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Eikos West">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#3A3F47"/>
+  <path d="M18 17h25v7H26v6h14v7H26v7h17v7H18z" fill="#EFE9DA"/>
+  <circle cx="49" cy="32" r="4" fill="#9E2A2A"/>
+</svg>
