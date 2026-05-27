@@ -18,7 +18,7 @@ This folder is already a local Git repository. Create an empty repository on Git
 git branch -M main
 git add .
 git commit -m "Build Eikos West website prototype"
-git remote add origin https://github.com/YOUR-USERNAME/eikos-west-site.git
+git remote add origin https://github.com/alexkorol/eikos-west-site.git
 git push -u origin main
 ```
 
