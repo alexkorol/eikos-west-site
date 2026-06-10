@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://alexkorol.github.io/eikos-west-site/sitemap.xml
